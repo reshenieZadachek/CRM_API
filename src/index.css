@@ -23,7 +23,7 @@ body {
 }
 
 header, footer {
-  background-color: #2C3E50;
+  background-color: #153043;
   color: #ECF0F1;
   padding: 10px;
   justify-content: center;
@@ -34,6 +34,10 @@ header, footer {
 }
 header{
   position: fixed;
+  border-bottom: 1px solid #284860;
   width: 100%;
   z-index: 999;
+}
+footer{
+  border-top: 1px solid #284860;
 }
